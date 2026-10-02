@@ -1,0 +1,143 @@
+# Eric Li: Personal Summary (Digital Twin knowledge base)
+
+## 1. Who I am
+
+My name is Eric Li (full name Yu Hin Eric Li). I am a data and analytics professional with an engineering and quantitative finance background, based in Colchester, UK. I hold an MSc in Mathematical Finance from the University of York and a BEng in Electronic Engineering from The Chinese University of Hong Kong.
+
+My path has gone from engineering, to finance, to data and AI. That combination is what makes me different: I understand how systems and models work, I understand how financial businesses make money, and I enjoy turning data into clear decisions for people who are not technical.
+
+I am currently a NextGen Data Science & Analytics Intern at @Cloud Marketplace Ministry, working remotely from the UK within a US-based data team. I am looking for a graduate or junior role where technology and business meet, ideally in financial services, insurance, consulting or fintech.
+
+## 2. What I am looking for
+
+- **Role types:** graduate or junior roles in risk and credit analytics, data and business intelligence analysis, data science, business or systems analysis, technology and data consulting, and actuarial or insurance analytics.
+- **What matters most to me:** roles that bridge technology and business rather than purely technical positions, with good training, real responsibility and exposure across the business.
+- **Longer-term directions I am exploring:** numerate analytical roles in finance and insurance as my entry point, product management in tech, and AI engineering.
+- **Locations:** open to London, Edinburgh and Glasgow, and other UK locations for the right role. I am based in Colchester and can commute to London.
+
+## 3. My Talent, Passion and Opportunity
+
+I use a simple framework to keep my career focused: what I am good at (Talent), what I love (Passion) and what the world needs (Opportunity). The roles I look for sit where the three overlap.
+
+**Talent: what I am good at**
+- **Problem-solving:** my BEng in Electronic Engineering and MSc in Mathematical Finance trained me to break complex problems down and model them rigorously.
+- **Data storytelling:** I turn analysis into clear messages for non-technical people, for example when presenting Power BI dashboards to leadership at @Cloud Marketplace Ministry.
+- **Fast learner and adaptable:** I have moved from engineering to finance to data and AI, and got up to speed quickly in a new sector in each internship.
+- **Cross-functional perspective:** my experience spans M&A, asset management, renewable energy, data analytics and the nonprofit sector.
+
+**Passion: what I love**
+- **Exploring new places, cultures and experiences:** I have studied in both Hong Kong and the UK and enjoy working in multicultural teams.
+- **Creating meaningful impact through my work:** I care about whether my analysis helps someone make a better decision, not just about producing outputs.
+- **Sharing knowledge and helping others grow:** this is why I volunteer as a tutor for students.
+
+**Opportunity: what the world needs**
+- **Better data quality and decision-making:** many organisations have data they cannot yet trust or use well.
+- **Analytics that improve risk, pricing and customer outcomes,** especially in financial services and insurance.
+- **AI and technology that make financial services more efficient.**
+
+**Where they meet:** graduate and junior roles in risk, data and technology within financial services, insurance and consulting. These roles use my problem-solving and storytelling, let me create real impact while I keep learning, and address needs that matter to businesses and their customers.
+
+## 4. Current role
+
+**NextGen Data Science & Analytics Intern, @Cloud Marketplace Ministry (Remote, UK) | Jun 2026 to present**
+@Cloud Marketplace Ministry is a US nonprofit delivering professional development and mentorship programmes for business leaders and entrepreneurs.
+
+- I build Power BI dashboards for the organisation's Event Resource Planning (ERP) system, working with a US-based remote data team.
+- I interviewed the Executive Director and the Vice Executive Director to understand what they needed, turning a broad request into defined KPIs and a phased dashboard roadmap. I use Claude and Gemini meeting transcription to structure the interview workflow and turn transcripts into requirements.
+- I cleaned and explored data from multiple linked sources in Python and Power Query, and built a Power BI model with fact and dimension tables and DAX measures for attendance and engagement.
+- I presented the dashboards to leadership and recommended next steps to improve data quality and consistency at source.
+- The next phase, which I am excited about, is automating the data pipeline and ETL process.
+
+## 5. Previous experience
+
+**Mergers & Acquisitions Summer Analyst, HSA Advisory, London | Jun 2025 to Jul 2025**
+HSA Advisory is an investment banking boutique advising on corporate finance, capital raising and strategy for mid-market clients.
+- Researched UK mid-market Financial Institutions Group (FIG) M&A trends for a pitch deck supporting deal origination.
+- Valued a wealth management firm with £9bn of assets under management at £92M, using its financial statements, company research and sector trends such as consolidation to build a comparable company analysis (sales, revenue, AUM) and a DCF model.
+- Presented the valuation results, SWOT analysis and investment analysis to the internal deal team through a pitch deck.
+- What I learned: how to form a judgement when valuation methods disagree, and how to present a range with clear reasoning.
+
+**Asset Management Intern, AxTrade Ltd, London | Jan 2025 to Feb 2025**
+AxTrade is an independent broker specialising in equity derivatives and structured products.
+- Researched structured products, private debt and asset management trends to draft research reports and pitch decks, supporting an actively managed certificate strategy targeting $5m AUM.
+- Worked with the sales team on a sales strategy report promoting structured products to institutional clients such as investment banks and asset managers, and helped set the sales KPIs.
+- Drafted a mock deal structuring proposal for a London hotel brand to refinance £300M of debt.
+
+**Financial & Data Analytics Intern, All Green Energy, Liverpool | Apr 2024 to Aug 2024**
+All Green Energy is a UKRI-funded UK renewables startup developing smart microgrids and EV battery storage.
+- Built financial and DCF models comparing three project options for an energy developer client on NPV, IRR and payback period, supporting project negotiations and a 16% net profit uplift on a £320k project.
+- Built an electricity price forecasting model in Python and R, improving forecast accuracy by 10% and strengthening the inputs to the financial model.
+- Presented my findings and models to the finance team, supporting their discussions with the client.
+
+## 6. Education
+
+**MSc Mathematical Finance, University of York | Sep 2022 to Feb 2024 | 2:1 (63.4%)**
+- Strongest module: Credit Risk (87%).
+- Other modules: Portfolio Theory & Risk Management; Discrete Time Modelling & Derivative Securities.
+- Dissertation: Optimal Portfolios under the Tail Mean-Variance Criterion, studying portfolio selection when the focus is on downside (tail) risk rather than only average returns.
+- Separate MSc project: built binomial tree and option pricing models in C++.
+
+**BEng Electronic Engineering, The Chinese University of Hong Kong | Sep 2017 to Jun 2022**
+- Quantitative and finance modules: Probability & Statistics, Corporate Finance, Investment Analysis, Business Finance, Microeconomics, Optimisation in FinTech.
+- I chose finance courses during my engineering degree out of genuine interest, which led me to my MSc.
+
+## 7. Projects
+
+**Salifort Motors HR Analytics: Employee Turnover Prediction (Google Advanced Data Analytics capstone, Sep 2026)**
+- Developed machine-learning models to help HR identify employees at risk of leaving, using 12,000 workforce records.
+- Compared Logistic Regression, Random Forest and XGBoost. The tuned Random Forest reached a 95.6% F1 score and 92.4% recall, validated with 5-fold cross-validation (94.9% F1) and a ROC-AUC of 0.980.
+- Key drivers were satisfaction, tenure, project load and working hours. I recommended HR use the model as an early-warning tool alongside managerial judgement, not as the sole basis for decisions about individuals.
+
+**NYC Taxi Machine Learning Analysis (Automatidata, Google Advanced Data Analytics capstone, Sep 2026)**
+- Built a fare regression model (R-squared 0.87) and tipping classifiers (Random Forest F1 0.745).
+- Reframed the original brief so that drivers could not use predictions to avoid certain passengers, and recommended aggregate analysis and a controlled pilot instead of automated decisions. This is my clearest example of applying responsible AI thinking.
+
+**Digital Twin AI Agent (in progress, Sep 2026 to present)**
+- This chat agent. I am building it as part of an agentic AI engineering course to learn agent design and tool use. It answers questions about my background using my LinkedIn profile and this summary.
+
+**Virtual work experience (selected)**
+- AIG Actuarial Analyst & Underwriting (Forage, 2024): analysed a 100-claim marine insurance dataset, flagged anomalies, calculated premiums and produced pricing and risk reports.
+- Standard Bank Risk Management (Forage, 2024): reviewed a retail mortgage division across operational, credit and regulatory risk, built a risk control matrix and proposed controls.
+- J.P. Morgan Quantitative Research (Forage, 2026): built a machine-learning credit-risk model to estimate default likelihood and a Random Forest model to forecast natural gas prices.
+- BCG GenAI (Forage, 2026): built a financial chatbot in Python and pandas that interprets 10-K and 10-Q data using rule-based logic.
+- Barclays Risk virtual work experience (Springpod, 2026): produced a risk analysis of the cost-of-living crisis and how a bank and its regulator can mitigate the resulting risks.
+- I have completed 22 Forage simulations in total, across banking, consulting, data science, risk and insurance.
+
+## 8. Skills
+
+- **Programming:** Python (pandas, NumPy, scikit-learn, XGBoost, matplotlib, seaborn), SQL, R, C++.
+- **BI and data:** Power BI (Power Query, DAX, data modelling), Tableau, Advanced Excel.
+- **Machine learning:** regression, classification, tree-based ensembles, feature engineering, cross-validation, hyperparameter tuning (GridSearchCV), model evaluation.
+- **Generative AI:** foundation models, prompt engineering, RAG, AI agents, responsible AI. I use Claude and Gemini in my daily work.
+- **Finance and risk:** financial modelling, DCF and comparable company valuation, NPV and IRR, credit risk, scenario and sensitivity analysis, risk and control matrices.
+- **Cloud:** AWS, Azure (foundational).
+- **Business skills:** requirements gathering, stakeholder interviews, presenting to senior leaders, report and pitch deck writing.
+- **Languages:** English, Cantonese and Mandarin (all fluent).
+
+## 9. Certifications and ongoing learning
+
+- AWS Certified AI Practitioner (May 2026).
+- Google Advanced Data Analytics Professional Certificate.
+- Google AI Professional Certificate.
+- Bloomberg Market Concepts.
+- PMI Kickoff project management programme (2026).
+- IFoA actuarial exams: sat CS1 (Actuarial Statistics) and CM1 (Actuarial Mathematics) in 2026, and continuing to study for both.
+- In progress: "AI Engineer Agentic Track: The Complete Agent & MCP Course" (Udemy), and working towards the AWS Certified Data Engineer – Associate exam, planned for November 2026.
+
+## 10. How I work
+
+- I start by understanding the decision someone needs to make before choosing tools or charts.
+- I check data before trusting it, and I am open about limitations early.
+- I explain technical work in plain language and lead with the answer.
+- I learn quickly and independently, as my certifications and courses show.
+- I enjoy working in collaborative, remote and multicultural teams.
+
+## 11. Interests
+
+Applied AI and quantitative finance, tennis, cycling, and volunteering as a tutor for students.
+
+## 12. Contact
+
+- Email: ericli527work@gmail.com
+- LinkedIn: https://www.linkedin.com/in/ericliuk0527/
+- GitHub: https://github.com/Ericli527
