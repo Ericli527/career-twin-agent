@@ -1,4 +1,4 @@
-# 🤖 Digital Twin: Talk to My AI About My Career
+# 🤖 Career Twin Agent: Talk to My AI About My Career
 
 **[▶ Try it live: twin-ihkk.onrender.com](https://twin-ihkk.onrender.com)**
 
@@ -50,7 +50,7 @@ flowchart LR
 ## Project structure
 
 ```
-twin/
+career-twin-agent/
 ├── app.py            # Starts the Gradio chat app
 ├── context.py        # Builds the system prompt (persona + my documents)
 ├── tools.py          # Tools the model can call, e.g. record contact details
@@ -64,8 +64,8 @@ twin/
 
 1. **Clone the repo**
    ```bash
-   git clone https://github.com/Ericli527/twin.git
-   cd twin
+   git clone https://github.com/Ericli527/career-twin-agent.git
+   cd career-twin-agent
    ```
 2. **Install the packages**
    ```bash
