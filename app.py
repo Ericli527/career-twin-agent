@@ -38,5 +38,17 @@ if __name__ == "__main__":
         "Explore how I combine Data Analytics, AI, and "
         "Quantitative Finance to solve business problems."
         ),
-        chatbot=gr.Chatbot(show_label=False),
+        chatbot=gr.Chatbot(
+    show_label=False,
+    placeholder=(
+        "### 👋 Welcome to Eric's Career Twin!\n\n"
+        "I'm an AI assistant here to introduce you to Eric Li.\n\n"
+        "You can ask me about his:\n\n"
+        "📊 Data Analytics & AI experience\n\n"
+        "💼 Financial & Risk Analytics background\n\n"
+        "🛠️ Technical skills and projects\n\n"
+        "🎯 Career interests and opportunities\n\n"
+        "**Choose a suggested question or ask your own below!**"
+        ),
+    ),
     ).launch(css=CSS, js=JS, theme=gr.themes.Base())
