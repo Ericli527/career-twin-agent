@@ -31,22 +31,21 @@ if __name__ == "__main__":
     gr.ChatInterface(
         chat,
         examples=EXAMPLES,
-        title="Eric's Career Twin | AI-Powered Chatbot",
+        title="Eric's Career Twin",
         description=(
-        "Ask my AI twin about my background, experience, "
-        "technical skills, projects, and career interests.\n\n"
-        "Explore how I combine Data Analytics, AI, and "
-        "Quantitative Finance to solve business problems."
+        "AI-Powered Career Assistant\n\n"
+        "Ask about my background, skills, projects, "
+        "and experience in Data Analytics, AI, Finance, and Risk."
         ),
         chatbot=gr.Chatbot(
-    show_label=False,
-    placeholder=(
+        show_label=False,
+        placeholder=(
         "## 👋 Welcome to Eric's Career Twin!\n\n"
         "I'm Eric's AI-powered career assistant.\n\n"
         "Ask me about his experience in "
         "**Data Analytics, AI, Finance, and Risk**, "
         "or explore his technical projects and career interests.\n\n"
         "**Select a question below to get started!**"
+            ),
         ),
-    ),
     ).launch(css=CSS, js=JS, theme=gr.themes.Base())
