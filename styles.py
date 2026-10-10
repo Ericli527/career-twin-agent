@@ -5,10 +5,12 @@ BLUE = "#209dd7"
 PURPLE = "#753991"
 
 EXAMPLES = [
-    "Tell me about your background and experience.",
-    "What kinds of projects are you working on now?",
-    "What are your strongest technical skills?",
-    "How can I get in touch with you?",
+    "Tell me about Eric's background and career journey.",
+    "Why would Eric be a good fit for a Data Analyst role?",
+    "How has Eric applied Python and machine learning?",
+    "Tell me about Eric's experience in finance and risk.",
+    "What AI projects has Eric developed?",
+    "What career opportunities is Eric looking for?",
 ]
 
 CSS = """
@@ -94,7 +96,7 @@ button, input, textarea,
 .chatbot, .chatbot.block {
   background: var(--twin-surface) !important;
   border: 1px solid var(--twin-border) !important;
-  min-height: 460px !important;
+  min-height: 380px !important;
   box-shadow: none !important;
 }
 .chatbot .placeholder, .chatbot .placeholder * { color: var(--twin-muted) !important; }
@@ -354,7 +356,7 @@ button[variant="primary"] svg {
 
 JS = """
 () => {
-  document.title = 'Digital Twin';
+  document.title = "Eric's Career Twin | AI-Powered Chatbot";
 
   const focusInput = () => {
     const areas = document.querySelectorAll('textarea');
