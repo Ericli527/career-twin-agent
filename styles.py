@@ -309,6 +309,73 @@ body.dark .chatbot .message-row[data-role="user"] .message-bubble {
     animation: none !important;
   }
 }
+
+/* ===== CAREER PROFILE HEADER (scoped; existing chat styles unchanged) ===== */
+.career-profile {
+  display: flex; align-items: flex-start; gap: 20px; position: relative;
+  background: var(--twin-surface); border: 1px solid var(--twin-border);
+  border-radius: 18px; padding: 25px; margin: 0 0 20px;
+  box-shadow: 0 10px 28px rgba(0,0,0,.035);
+}
+.career-profile__avatar {
+  flex: 0 0 68px; width: 68px; height: 68px;
+  display: grid; place-items: center;
+  border-radius: 18px; background: var(--twin-gold);
+  color: #201800; font-weight: 800; font-size: 23px;
+  letter-spacing: -.04em;
+}
+.career-profile__body { flex: 1; min-width: 0; padding-right: 120px; }
+.career-profile__eyebrow {
+  color: var(--twin-muted); font-size: 10px; font-weight: 700;
+  letter-spacing: .16em; margin-bottom: 5px;
+}
+.gradio-container .career-profile__name {
+  border: 0 !important; padding: 0 !important; margin: 0 0 3px !important;
+  color: var(--twin-text) !important; font-size: 29px !important;
+  letter-spacing: -.035em !important; line-height: 1.2 !important;
+}
+.career-profile__headline {
+  font-size: 14px; font-weight: 650; line-height: 1.5;
+  color: var(--twin-text); margin: 0 0 9px;
+}
+.career-profile__headline span { color: var(--twin-gold); margin: 0 4px; }
+.career-profile__intro {
+  color: var(--twin-muted); font-size: 13px;
+  line-height: 1.65; max-width: 620px; margin: 0 0 14px;
+}
+.career-profile__skills { display: flex; flex-wrap: wrap; gap: 7px; }
+.career-profile__skills span {
+  font-size: 11px; font-weight: 600; color: var(--twin-text);
+  background: var(--twin-surface-2); border: 1px solid var(--twin-border);
+  border-radius: 99px; padding: 6px 10px;
+}
+.career-profile__links {
+  position: absolute; right: 24px; top: 25px; display: flex; gap: 7px;
+}
+.career-profile__links a {
+  white-space: nowrap; border: 1px solid var(--twin-border);
+  border-radius: 9px; padding: 8px 10px; text-decoration: none !important;
+  font-size: 12px; font-weight: 700; color: var(--twin-text) !important;
+  background: var(--twin-surface-2); transition: border-color .15s, transform .15s;
+}
+.career-profile__links a:hover,
+.career-profile__links a:focus-visible {
+  border-color: var(--twin-gold); transform: translateY(-1px);
+}
+.career-chat-heading { margin: 0 0 8px !important; }
+.career-chat-heading h3 { font-size: 17px !important; margin: 0 0 5px !important; }
+.career-chat-heading p { font-size: 13px !important; color: var(--twin-muted) !important; }
+@media (max-width: 760px) {
+  .career-profile { padding: 19px; gap: 13px; flex-wrap: wrap; }
+  .career-profile__avatar { flex-basis: 52px; width: 52px; height: 52px; border-radius: 13px; font-size: 19px; }
+  .career-profile__body { flex-basis: calc(100% - 70px); padding-right: 0; }
+  .career-profile__links { position: static; margin-left: 65px; flex-wrap: wrap; }
+  .gradio-container .career-profile__name { font-size: 24px !important; }
+}
+@media (max-width: 420px) {
+  .career-profile__links { margin-left: 0; width: 100%; }
+  .career-profile__links a { flex: 1; text-align: center; }
+}
 """
 
 JS = """() => {
