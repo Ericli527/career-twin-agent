@@ -91,7 +91,7 @@ html, body, gradio-app {
   border-radius: 18px !important;
   box-shadow: var(--twin-shadow) !important;
   overflow: hidden !important;
-  min-height: 360px !important;
+  min-height: 260px !important;
 }
 .chatbot .block-label,
 .chatbot .label-wrap { display: none !important; }
@@ -107,7 +107,7 @@ html, body, gradio-app {
   color: var(--twin-muted) !important;
   max-width: 100% !important;
   margin: 0 auto !important;
-  padding: 18px 22px !important;
+  padding: 12px 16px !important;
   text-align: center !important;
 }
 .chatbot .placeholder h1,
@@ -117,16 +117,17 @@ html, body, gradio-app {
 .chatbot .placeholder-container h2 {
   border: 0 !important;
   padding: 0 !important;
-  margin: 0 0 10px !important;
-  font-size: 20px !important;
+  margin: 0 0 6px !important;
+  font-size: 17px !important;
   letter-spacing: -.02em !important;
   color: var(--twin-text) !important;
 }
 .chatbot .placeholder p,
 .chatbot .placeholder-container p {
   font-size: 14px !important;
-  line-height: 1.6 !important;
+  line-height: 1.45 !important;
   color: var(--twin-muted) !important;
+  margin: 0 !important;
 }
 .chatbot .placeholder strong { color: var(--twin-text) !important; }
 
@@ -296,7 +297,7 @@ body.dark .chatbot .message-row[data-role="user"] .message-bubble {
   .gradio-container { padding: 25px 14px 36px !important; }
   .gradio-container h1 { font-size: 25px !important; padding-left: 12px !important; }
   .gradio-container .chatbot,
-  .gradio-container .chatbot.block { min-height: 300px !important; border-radius: 14px !important; }
+  .gradio-container .chatbot.block { min-height: 260px !important; border-radius: 14px !important; }
   .chatbot .placeholder,
   .chatbot .placeholder-container { padding: 12px !important; }
   .examples button,
@@ -313,7 +314,7 @@ body.dark .chatbot .message-row[data-role="user"] .message-bubble {
 /* ===== CAREER PROFILE HEADER (scoped; existing chat styles unchanged) ===== */
 .career-profile {
   display: flex; align-items: flex-start; gap: 20px; position: relative;
-  background: var(--twin-surface); border: 1px solid var(--twin-border);
+  background: var(--twin-card); border: 1px solid var(--twin-border);
   border-radius: 18px; padding: 25px; margin: 0 0 20px;
   box-shadow: 0 10px 28px rgba(0,0,0,.035);
 }
@@ -346,7 +347,7 @@ body.dark .chatbot .message-row[data-role="user"] .message-bubble {
 .career-profile__skills { display: flex; flex-wrap: wrap; gap: 7px; }
 .career-profile__skills span {
   font-size: 11px; font-weight: 600; color: var(--twin-text);
-  background: var(--twin-surface-2); border: 1px solid var(--twin-border);
+  background: var(--twin-card-2); border: 1px solid var(--twin-border);
   border-radius: 99px; padding: 6px 10px;
 }
 .career-profile__links {
@@ -356,7 +357,7 @@ body.dark .chatbot .message-row[data-role="user"] .message-bubble {
   white-space: nowrap; border: 1px solid var(--twin-border);
   border-radius: 9px; padding: 8px 10px; text-decoration: none !important;
   font-size: 12px; font-weight: 700; color: var(--twin-text) !important;
-  background: var(--twin-surface-2); transition: border-color .15s, transform .15s;
+  background: var(--twin-card-2); transition: border-color .15s, transform .15s;
 }
 .career-profile__links a:hover,
 .career-profile__links a:focus-visible {

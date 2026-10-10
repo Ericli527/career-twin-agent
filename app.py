@@ -58,11 +58,11 @@ if __name__ == "__main__":
             examples=EXAMPLES,
             chatbot=gr.Chatbot(
                 show_label=False,
+                height=260,
                 placeholder=(
                     "### 👋 Welcome to Eric's Career Twin!\n\n"
-                    "I'm Eric's AI-powered career assistant. Ask me about his "
-                    "**data and AI projects, finance experience, and professional background**.\n\n"
-                    "**Pick a suggested question below to get started.**"
+                    "Ask about my **experience, AI projects, technical skills, "
+                    "or career interests**."
                 ),
             ),
         )
