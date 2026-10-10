@@ -352,9 +352,6 @@ button[variant="primary"] svg {
 }
 """
 
-/* ==========================================
-   CAREER TWIN — WELCOME SCREEN FIXES
-   ========================================== */
 
 /* Chat window */
 .chatbot,
