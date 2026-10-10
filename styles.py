@@ -6,10 +6,8 @@ PURPLE = "#753991"
 
 EXAMPLES = [
     "Tell me about Eric's background and career journey.",
-    "Why would Eric be a good fit for a Data Analyst role?",
     "How has Eric applied Python and machine learning?",
     "Tell me about Eric's experience in finance and risk.",
-    "What AI projects has Eric developed?",
     "What career opportunities is Eric looking for?",
 ]
 
@@ -354,31 +352,105 @@ button[variant="primary"] svg {
 }
 """
 
+/* ==========================================
+   CAREER TWIN — WELCOME SCREEN FIXES
+   ========================================== */
+
+/* Chat window */
+.chatbot,
+.chatbot.block {
+    min-height: 350px !important;
+    background: var(--twin-bg) !important;
+    border: 1px solid var(--twin-border) !important;
+}
+
+/* Welcome placeholder — full width */
+.chatbot .placeholder-container,
+.chatbot .placeholder {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 20px 24px !important;
+    margin: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* Remove narrow inner content constraints */
+.chatbot .placeholder-container > *,
+.chatbot .placeholder > * {
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* Welcome text */
+.chatbot .placeholder h2 {
+    font-size: 21px !important;
+    font-weight: 700 !important;
+    color: var(--twin-text) !important;
+    margin-bottom: 14px !important;
+}
+
+.chatbot .placeholder p {
+    color: var(--twin-text) !important;
+    font-size: 14px !important;
+    line-height: 1.65 !important;
+    margin: 0 0 12px !important;
+}
+
+.chatbot .placeholder strong {
+    color: var(--twin-text) !important;
+    font-weight: 600 !important;
+}
+
+/* Suggested question layout */
+.examples,
+.examples-holder,
+[data-testid="examples"] {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-top: 12px !important;
+}
+
+/* Question button wrapping */
+.examples button,
+.example,
+[data-testid="examples"] button {
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    height: auto !important;
+    min-height: 56px !important;
+    line-height: 1.4 !important;
+    text-align: left !important;
+}
+
+/* Mobile adjustments */
+@media (max-width: 640px) {
+    .chatbot .placeholder-container,
+    .chatbot .placeholder {
+        padding: 16px !important;
+    }
+
+    .chatbot .placeholder h2 {
+        font-size: 18px !important;
+    }
+
+    .examples button,
+    [data-testid="examples"] button {
+        font-size: 12px !important;
+    }
+}
+
+
+
 JS = """
 () => {
-  document.title = "Eric's Career Twin | AI-Powered Chatbot";
+    document.title = "Eric's Career Twin | AI-Powered Chatbot";
 
-  const focusInput = () => {
-    const areas = document.querySelectorAll('textarea');
-    if (areas.length) areas[areas.length - 1].focus();
-  };
-  setTimeout(focusInput, 300);
-
-  // Re-focus the message field whenever Gradio re-enables it
-  // (i.e. after the assistant finishes responding).
-  const watchTextarea = (area) => {
-    if (area.dataset.twinWatched) return;
-    area.dataset.twinWatched = '1';
-    let wasDisabled = area.disabled || area.readOnly;
-    new MutationObserver(() => {
-      const isDisabled = area.disabled || area.readOnly;
-      if (wasDisabled && !isDisabled) area.focus();
-      wasDisabled = isDisabled;
-    }).observe(area, { attributes: true, attributeFilter: ['disabled', 'readonly'] });
-  };
-
-  const scan = () => document.querySelectorAll('textarea').forEach(watchTextarea);
-  setTimeout(scan, 500);
-  new MutationObserver(scan).observe(document.body, { childList: true, subtree: true });
+    // Do not auto-focus the message input on page load.
+    // This prevents unwanted scrolling on the welcome screen.
 }
 """
+
