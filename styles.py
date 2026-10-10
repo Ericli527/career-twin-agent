@@ -90,8 +90,8 @@ html, body, gradio-app {
   border: 1px solid var(--twin-border) !important;
   border-radius: 18px !important;
   box-shadow: var(--twin-shadow) !important;
-  overflow: hidden !important;
-  min-height: 260px !important;
+  overflow: visible !important;
+  min-height: 400px !important;
 }
 .chatbot .block-label,
 .chatbot .label-wrap { display: none !important; }
@@ -130,6 +130,33 @@ html, body, gradio-app {
   margin: 0 !important;
 }
 .chatbot .placeholder strong { color: var(--twin-text) !important; }
+
+/* Compact Gradio empty state: prevent a narrow stretched welcome card. */
+.chatbot .placeholder-container,
+.chatbot .placeholder {
+  width: auto !important;
+  max-width: min(100%, 660px) !important;
+  height: auto !important;
+  min-height: 0 !important;
+  padding: 14px 20px !important;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.chatbot .placeholder-container > *,
+.chatbot .placeholder > * {
+  max-width: 100% !important;
+  min-height: 0 !important;
+  height: auto !important;
+  border: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+/* Examples must not be clipped by the chatbot frame. */
+.examples, .examples-holder, [data-testid="examples"] {
+  overflow: visible !important;
+  visibility: visible !important;
+}
 
 /* Messages: clear hierarchy, readable paragraphs */
 .chatbot .message-row { background: transparent !important; }
@@ -297,7 +324,7 @@ body.dark .chatbot .message-row[data-role="user"] .message-bubble {
   .gradio-container { padding: 25px 14px 36px !important; }
   .gradio-container h1 { font-size: 25px !important; padding-left: 12px !important; }
   .gradio-container .chatbot,
-  .gradio-container .chatbot.block { min-height: 260px !important; border-radius: 14px !important; }
+  .gradio-container .chatbot.block { min-height: 340px !important; border-radius: 14px !important; }
   .chatbot .placeholder,
   .chatbot .placeholder-container { padding: 12px !important; }
   .examples button,

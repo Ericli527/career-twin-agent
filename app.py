@@ -58,7 +58,7 @@ if __name__ == "__main__":
             examples=EXAMPLES,
             chatbot=gr.Chatbot(
                 show_label=False,
-                height=260,
+                height=400,
                 placeholder=(
                     "### 👋 Welcome to Eric's Career Twin!\n\n"
                     "Ask about my **experience, AI projects, technical skills, "
