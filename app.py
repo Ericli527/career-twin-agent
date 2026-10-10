@@ -41,14 +41,12 @@ if __name__ == "__main__":
         chatbot=gr.Chatbot(
     show_label=False,
     placeholder=(
-        "### 👋 Welcome to Eric's Career Twin!\n\n"
-        "I'm an AI assistant here to introduce you to Eric Li.\n\n"
-        "You can ask me about his:\n\n"
-        "📊 Data Analytics & AI experience\n\n"
-        "💼 Financial & Risk Analytics background\n\n"
-        "🛠️ Technical skills and projects\n\n"
-        "🎯 Career interests and opportunities\n\n"
-        "**Choose a suggested question or ask your own below!**"
+        "## 👋 Welcome to Eric's Career Twin!\n\n"
+        "I'm Eric's AI-powered career assistant.\n\n"
+        "Ask me about his experience in "
+        "**Data Analytics, AI, Finance, and Risk**, "
+        "or explore his technical projects and career interests.\n\n"
+        "**Select a question below to get started!**"
         ),
     ),
     ).launch(css=CSS, js=JS, theme=gr.themes.Base())
