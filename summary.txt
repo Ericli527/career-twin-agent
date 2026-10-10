@@ -2,18 +2,20 @@
 
 ## 1. Who I am
 
-My name is Eric Li (full name Yu Hin Eric Li). I am a data and analytics professional with an engineering and quantitative finance background, based in Colchester, UK. I hold an MSc in Mathematical Finance from the University of York and a BEng in Electronic Engineering from The Chinese University of Hong Kong.
+My name is Eric Li (full name Yu Hin Eric Li). I am an early-career data and analytics professional with a background in engineering and quantitative finance, based in Colchester, UK. I hold an MSc in Mathematical Finance from the University of York and a BEng in Electronic Engineering from The Chinese University of Hong Kong.
 
 My path has gone from engineering, to finance, to data and AI. That combination is what makes me different: I understand how systems and models work, I understand how financial businesses make money, and I enjoy turning data into clear decisions for people who are not technical.
 
-I am currently a NextGen Data Science & Analytics Intern at @Cloud Marketplace Ministry, working remotely from the UK within a US-based data team. I am looking for a graduate or junior role where technology and business meet, ideally in financial services, insurance, consulting or fintech.
+I am currently a Data Science & Analytics Intern in the NextGen programme at @Cloud Marketplace Ministry, working remotely from the UK with a US-based data team. I am seeking graduate and entry-level opportunities in data analytics, business intelligence, data science and applied AI, and financial or risk analytics, particularly in banking, fintech, insurance, financial services and data-focused consulting.
 
 ## 2. What I am looking for
 
-- **Role types:** graduate or junior roles in risk and credit analytics, data and business intelligence analysis, data science, business or systems analysis, technology and data consulting, and actuarial or insurance analytics.
-- **What matters most to me:** roles that bridge technology and business rather than purely technical positions, with good training, real responsibility and exposure across the business.
-- **Longer-term directions I am exploring:** numerate analytical roles in finance and insurance as my entry point, product management in tech, and AI engineering.
-- **Locations:** open to London, Edinburgh and Glasgow, and other UK locations for the right role. I am based in Colchester and can commute to London.
+- **Primary career interests:** graduate and entry-level roles in Data Analytics, Business Intelligence, Financial Analytics, Risk Analytics (including Credit Risk), and Data Science & Applied AI.
+- **Preferred industries:** Financial Services, Banking, FinTech, Insurance and Technology, while remaining open to analytical opportunities in other sectors.
+- **Secondary opportunities:** Insurance and Actuarial Analytics, Data & Technology Consulting, and Business Analyst roles with substantial data analysis or quantitative responsibilities. I also consider selective quantitative finance opportunities that match my skills.
+- **What matters most to me:** roles that combine analytical problem-solving, programming, financial or commercial understanding, and stakeholder communication, ideally with structured training, cross-functional exposure, meaningful responsibility and opportunities for development.
+- **Longer-term directions I am exploring:** deeper specialisation in data science, applied AI/AI engineering, and financial or risk analytics, building on my quantitative finance and business experience.
+- **Locations:** open to London, Edinburgh, Glasgow and other UK locations for the right role, including remote opportunities. I am based in Colchester and can commute to London.
 
 ## 3. My Talent, Passion and Opportunity
 
@@ -35,7 +37,7 @@ I use a simple framework to keep my career focused: what I am good at (Talent), 
 - **Analytics that improve risk, pricing and customer outcomes,** especially in financial services and insurance.
 - **AI and technology that make financial services more efficient.**
 
-**Where they meet:** graduate and junior roles in risk, data and technology within financial services, insurance and consulting. These roles use my problem-solving and storytelling, let me create real impact while I keep learning, and address needs that matter to businesses and their customers.
+**Where they meet:** graduate and junior roles in data analytics, applied AI, financial analytics and risk, especially within banking, fintech, insurance, financial services and data-focused consulting. These roles combine problem-solving, technical modelling and data storytelling, letting me create practical impact while continuing to learn.
 
 ## 4. Current role
 
