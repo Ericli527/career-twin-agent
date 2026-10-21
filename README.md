@@ -1,4 +1,4 @@
-# 🤖 Career Twin Agent: Talk to My AI About My Career
+# Career Twin Agent: Talk to My AI About My Career
 
 **[▶ Try it live: twin-ihkk.onrender.com](https://twin-ihkk.onrender.com)**
 
